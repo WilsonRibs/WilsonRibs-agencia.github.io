@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway;
+    background-color: #80808029;
+}
+.largura-maxima{
+    max-width: 1024px;
+}
+
+
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+}
+.topo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.topo img{
+    width: 32px;
+    height: 32px;
+}
+.topo p{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+.secao-formulario{
+    width: 100%;
+    height: auto;
+    background-image: url(img/bahia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.container-formulario{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 50px
+}
+.box-titulo{
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-titulo img{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+.box-titulo h1{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.box-formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    box-sizing: border-box;
+    
+}
+.box-formulario h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label{
+    font-size: 16px;
+}
+
+.formulario input{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.formulario input, .formulario select{
+    width: 100%;
+    height: 32px;
+    margin: 10px 0; 
+}
+
+.formulario-dividido{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.formulario select{
+    padding: 0 3px;
+}
+
+.formulario-dividido div{
+    width: calc(50% - 10px);
+}
+
+.seletor-preferencias{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.seletor-preferencias div{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+.seletor-preferencias input{
+    width: 15px;
+}
+.seletor-preferencias label{
+    margin: 0 0 0 8px;
+}
+button{
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.secao-oferta, .secao-natureza{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+}
+.secao-oferta h2, .secao-natureza h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.secao-oferta h3, .secao-natureza h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.box-oferta{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-oferta img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.box-img-destaque{
+    width: calc(50% - 10px);
+    height: 100%;
+    position: relative;
+}
+.box-4-img{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+.box-4-img figure{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+.box-oferta figcaption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 50%);
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.box-natureza{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img-natureza{
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.img-natureza img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-natureza div{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.img-natureza h4{
+    font-size: 14px;
+}
+.img-natureza p{
+    color: gray;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.secao-rodape{
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+
+}
+.box-rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.box-contato{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    
+}
+.box-contato h4{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.box-icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin: 5px 0 5px 0;
+}
+.box-icone img{
+    width: 18px;
+}
+.box-icone span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1100px){
+    .largura-maxima{ width: 90%;}
+}
+@media (max-width: 768px){
+    button{ width: 100%;}
+    .box-oferta{ 
+        
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .box-4-img{
+        width: 100%;
+    }
+    .secao-oferta figure{
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+    .box-natureza{
+        
+        flex-direction: column;
+    }
+    .img-natureza{
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+    .box-rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-icone{
+        width: 250px;
+    }
+}
+@media (max-width: 540px){
+    .formulario-dividido, .seletor-preferencias{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formulario-dividido div, .seletor-preferencias div{
+        width: 100%;
+    }
+}
